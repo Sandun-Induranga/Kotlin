@@ -1,7 +1,12 @@
-fun main(args: Array<String>) {
+fun getGreeting(): String {
+    return "This is a kotlin function"
+}
+
+fun sayHello(): Unit {
     println(getGreeting())
 }
 
-fun getGreeting(): String {
-    return "This is a kotlin function"
+fun main(args: Array<String>) {
+    println(getGreeting())
+    sayHello()
 }
