@@ -8,10 +8,12 @@
 //    println(getGreeting())
 //}
 
-fun sayHello(nameToGreet: String) {
-    val msg = "Hello " + nameToGreet
-    println(msg)
-}
+//fun sayHello(nameToGreet: String) {
+//    val msg = "Hello " + nameToGreet
+//    println(msg)
+//}
+
+fun sayHello(nameToGreet:String) = println("Hello $nameToGreet")
 
 fun main(args: Array<String>) {
 //    println(getGreeting())
