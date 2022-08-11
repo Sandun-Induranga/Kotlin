@@ -24,10 +24,15 @@ fun main(args: Array<String>) {
 //                                                              when
 //    This is same to java switch case
 
-    when (name){
-        "Kotlin" -> println("This is kotlin")
-        "Java" -> println("This is java")
-        else -> println("This is null")  // Act as default keyword in java
-    }
+//    when (name){
+//        "Kotlin" -> println("This is kotlin")
+//        "Java" -> println("This is java")
+//        else -> println("This is null")  // Act as default keyword in java
+//    }
+
+    // The below part's process is equals to java ternary operator
+
+    val statement = if (greeting==null) "Hi" else greeting
+    println(statement)
 
 }
