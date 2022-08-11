@@ -13,9 +13,9 @@
 //    println(msg)
 //}
 
-fun sayHello(nameToGreet:String) = println("Hello $nameToGreet")
+fun sayHello(nameToGreet: String, time:String) = println("Hello $nameToGreet $time")
 
 fun main(args: Array<String>) {
 //    println(getGreeting())
-    sayHello("Kotlin")
+    sayHello("Kotlin","Good morning")
 }
