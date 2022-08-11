@@ -12,13 +12,22 @@ fun main(args: Array<String>) {
 //    println(string)
 
 //                                                              if else
-    if (greeting==null){
-        greeting = "Hi"
-    }else{
-        println("Greeting is not null")
-    }
+//    if (greeting==null){
+//        greeting = "Hi"
+//    }else{
+//        println("Greeting is not null")
+//    }
+//
+////                                                            String Concatenation
+//    println("$greeting $name")
 
-//                                                              String Concatenation
-    println("$greeting $name")
+//                                                              when
+//    This is same to java switch case
+
+    when (name){
+        "Kotlin" -> println("This is kotlin")
+        "Java" -> println("This is java")
+        else -> println("This is null")  // Act as default keyword in java
+    }
 
 }
