@@ -32,7 +32,13 @@ fun main(args: Array<String>) {
 
     // The below part's process is equals to java ternary operator
 
-    val statement = if (greeting==null) "Hi" else greeting
+    val statement = if (greeting == null) "Hi" else greeting
     println(statement)
+
+    val variable = when (greeting) {
+        null -> "Hi"
+        else -> greeting
+    }
+    println(greeting)
 
 }
