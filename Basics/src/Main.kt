@@ -1,6 +1,7 @@
-val name: String = "Kotlin"
-var greeting: String? = null
-
 fun main(args: Array<String>) {
+    println(getGreeting())
+}
 
+fun getGreeting(): String {
+    return "This is a kotlin function"
 }
